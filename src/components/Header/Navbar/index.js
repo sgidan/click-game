@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 
 export default function index(props) {
   return (
@@ -7,7 +8,11 @@ export default function index(props) {
         <a class="navbar-brand" href="/">
           Clicky Game
         </a>
-      <div>Score: {props.score2}</div>
+        <div>
+        Game Status
+        </div>
+      <div>Score: {props.score2} | Top Score: {props.topScore}</div>
+    
       </nav>
     </div>
   );
