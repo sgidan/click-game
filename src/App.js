@@ -36,25 +36,10 @@ class App extends Component {
 
                </div>
               </footer>
-      </div>
-       
-       
-       /* <Wrapper>
-      //   <h1 className="title">Friends List</h1>
-      //   {friends.map(friend => (`
-      //   <FriendCard
-      //     id = {friend.id}
-      //     name={friend.name}
-      //     image={friend.image}
-      //     occupation={friend.occupation}
-      //     location={friend.location}
-      //     key={friend.id}
-      //     deleteFriend={this.deleteFriend}
-      //   />
-        // )
-      // }   </Wrapper> */
-    )}
-  
-}
+
+        </div>
+    ); 
+         }
+  }
 
 export default App;

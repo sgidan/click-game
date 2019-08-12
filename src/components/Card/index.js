@@ -10,7 +10,7 @@ function Card(props) {
         <div className="img-container">
           <img alt={props.name} src={props.image} />
         </div>
-        <div className="content">
+        {/* <div className="content">
           <ul>
             <li>
               <strong>Name:</strong> {props.name}
@@ -22,7 +22,7 @@ function Card(props) {
               <strong>Address:</strong> {props.location}
             </li>
           </ul>
-        </div>
+        </div> */}
         <span className="remove" onClick= {() => props.deleteFriend(props.id)} >𝘅</span>
       </div>
     );
